@@ -8,14 +8,14 @@ Installing using the `upgrade` command:
 
 ```
 # helm upgrade --install [RELEASE] [CHART]
-helm upgrade --install platform ./helm/jspare-gekko-platform
+helm upgrade --install platform ./helm/cloud-gekko
 ```
 
 Installing an unstable version of Gekko:
 
 ```
 # helm upgrade --install [RELEASE] [CHART]
-helm upgrade --install platform ./helm/jspare-gekko-platform --set gekko.version=unstable
+helm upgrade --install platform ./helm/cloud-gekko --set gekko.version=unstable
 ```
 
 ### Configuration
