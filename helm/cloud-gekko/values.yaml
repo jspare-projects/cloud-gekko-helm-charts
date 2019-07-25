@@ -7,11 +7,11 @@ gekko:
     nodePorts:
       http: "30300"
   config:
-    GEKKO_API_HOST : "127.0.0.1",
+    GEKKO_API_HOST : "127.0.0.1"
     GEKKO_API_PORT : 3000
     GEKKO_API_TIMEOUT : 120000
     GEKKO_ADAPTER : "mongodb"
-    GEKKO_MONGODB_CONNECTIONURL: "mongodb://gekko:gekko@platform-mongodb:27017/gekko"
+    GEKKO_MONGODB_CONNECTION: "mongodb://gekko:gekko@platform-mongodb:27017/gekko"
 
 mongodb:
   enabled: true
