@@ -23,6 +23,9 @@ service:
 
 ingress:
   enabled: false
+  gateway:
+    name: default-ingressgateway
+  path: /gekko
 
 resources: {}
   # To specify resources, uncomment the following lines, adjust them as necessary, 

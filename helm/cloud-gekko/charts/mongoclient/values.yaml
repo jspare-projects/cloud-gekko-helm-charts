@@ -22,6 +22,9 @@ service:
 
 ingress:
   enabled: false
+  gateway:
+    name: default-ingressgateway
+  path: /mongoclient
 
 resources: {}
   # To specify resources, uncomment the following lines, adjust them as necessary, 

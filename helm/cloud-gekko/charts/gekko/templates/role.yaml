@@ -15,8 +15,3 @@ rules:
   - services
   - pods
   verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
-- apiGroups:
-  - metam.avaya.com
-  resources:
-  - schemas
-  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
