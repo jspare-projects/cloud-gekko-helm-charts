@@ -24,7 +24,7 @@ ingress:
   enabled: false
   gateway:
     name: default-ingressgateway
-  path: /mongoclient
+  host: mongoclient.local
 
 resources: {}
   # To specify resources, uncomment the following lines, adjust them as necessary, 

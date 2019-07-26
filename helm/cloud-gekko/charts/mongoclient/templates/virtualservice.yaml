@@ -12,13 +12,13 @@ metadata:
     app.kubernetes.io/managed-by: {{ .Release.Service }}
 spec:
   hosts:
-  - "*"
+  - {{ .Values.ingress.host | default "*" }}
   gateways:
   - {{ .Values.ingress.gateway.name }}
   http:
   - match:
     - uri:
-        prefix: {{ $ingressPath }}
+        prefix: '/'        
     route:
     - destination:
         port:
